@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+    background-color:  #0B0B0B;
+
+}
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0B0B0B;
+    padding: 25vh 14vw;
+
+}
+
+#main{
+    position: relative;
+
+}
+.line{
+    height: fit-content;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 2vw;
+}
+#line-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4vw;
+}
+#line-part1  h5, #line-part1 h6{
+    font-size: 3.1vw;
+    font-family: 'Silk Serif';
+    font-weight: 100;
+}
+#line-part1  h5{
+    /* background-color: rebeccapurple; */
+    width: 5.5vw;
+    text-align: right;
+}
+
+.line h1{
+    
+    font-size:5.7vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+    /* position: fixed; */
+}
+
+.line h2 {
+    display: flex;
+    align-items: center;
+    font-size:5.4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes anime {
+    0%{
+        font-family: 'Plain light';
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 500;
+        opacity: 1;
+    }
+    25%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        opacity: 0;
+    }
+    75%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 500;
+        opacity: 1;
+    }
+    100%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+        font-weight: 500;
+        opacity: 0;
+    }
+    
+}
