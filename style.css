@@ -1,3 +1,8 @@
+@font-face {
+    font-family: silkserif-regularitalic-webfont;
+    src: url();
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +17,17 @@ html,body{
     width: 100%;
     background-color:  #0B0B0B;
 
+}
+#cursor{
+    height: 2.2vw;
+    width: 2.2vw;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    border: 1px solid #ffffff6c;
+    position: fixed;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
 }
 
 #loader{
@@ -110,3 +126,58 @@ html,body{
     }
     
 }
+
+
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.6vw 6.6vw;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+#nav-part2 h4{
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+.hero{
+    /* background-color: red; */
+    width: 72%;
+    margin-left: 27%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+.hero h1{
+    font-size: 7.4vw;
+    text-transform: uppercase;
+    line-height: 6.3vw;
+    font-weight: 500;
+    
+    
+}
+.hero:nth-child(2){
+    margin-top: 15vh;
+}
+
+.hero h2{
+    font-size: 7.4vw;
+    text-transform: uppercase;
+    line-height: 6.3vw;
+    font-weight: 500;
+    
+    
+}
+.hero h2:hover{
+    -webkit-text-stroke:1px  #fff;
+    color: transparent  ;
+}
+
