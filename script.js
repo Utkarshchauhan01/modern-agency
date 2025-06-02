@@ -50,7 +50,7 @@ tl.from("#nav",{
 })
 
 tl.from(".hero h1 , #hero3 h2",{
-    y: 120,
+    y: 140,
     stagger:0.2
 
 })
