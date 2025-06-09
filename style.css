@@ -18,6 +18,9 @@ html,body{
     background-color:  #0B0B0B;
 
 }
+body{
+    overflow-x: hidden;
+}
 #cursor{
     height: 2.2vw;
     width: 2.2vw;
@@ -238,4 +241,83 @@ html,body{
 
     font-size: 1.5vw;
 
+}
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+}
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 7vw 0;
+    /* background-color: aqua; */
+}
+#page4-content{
+    width: 72vw;
+    position: relative;
+    margin-left: 28%;
+}
+
+#page4-content h1{
+    font-size: 7vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#page4-content .underline{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 4vw 0;
+}
+#page4-content>p{
+    font-size: 2vw;
+    width: 50%;
+    margin-bottom: 3vw;
+}
+#page4-flex{
+    display: flex;
+}
+#page4-flex img{
+    width: 48%;
+}
+#page4-flex p{
+    font-size: 1vw;
+    width: 19%;
+    margin-left: 1vw;
+}
+#page4-bluediv{
+     background-color: #3F7DF4;
+     width: 30vw;   
+     padding: 4vw 3vw;
+     position: relative;
+     margin-top: -33vh;
+     margin-left: 25vw;
+}
+.bluediv-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 2.3vw 0;
+    border-bottom: 2px solid #f6f4f474;
+}
+
+.bluediv-elem h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+    
+    
+}
+.bluediv-elem p{
+    width: 50%;
+    font-size: 0.7vw;
+    
+}
+#page5{
+    min-width: 100vh;
+    width: 100%;
+    
 }
